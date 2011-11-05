@@ -1,0 +1,15 @@
+doctype 5
+html lang="en" 
+  head
+    meta charset="UTF-8"
+    title Spine Padrino
+    == stylesheet_link_tag :app
+    == javascript_include_tag :application      
+    
+    script  type="text/javascript" charset="utf-8" 
+      |
+        jQuery(function(){
+          new Pages({el: $("#pages")});
+        });    
+  body
+    #pages
