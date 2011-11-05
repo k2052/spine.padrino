@@ -1,4 +1,4 @@
-Pretty much a straight port of spine.rails3 to Padrino + Mongomapper. 
+Pretty much a straight port of [spine.rails3](https://github.com/maccman/spine.rails3) to Padrino + Mongomapper. 
 
 However, it uses a some of my forks to get things done in a more efficient manner. Spine can work just fine with Padrino out
 of the box, it just takes a bit more effort. My forks should eliminate the extra effort required.
