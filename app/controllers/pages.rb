@@ -43,7 +43,7 @@ SpinePadrino.controllers :pages, :provides => [:html, :json]  do
     if @page.save
       respond(@page)
     else
-      respond(@page, status => :unprocessable_entity)
+      respond(@page, :status => :unprocessable_entity)
     end
   end
 
