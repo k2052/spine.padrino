@@ -17,7 +17,8 @@ gem 'sprockets'
 gem 'coffee-script'  
 gem 'sprockets-jquery-tmpl', :git => 'git://github.com/bookworm/sprockets-jquery-tmpl.git'
 gem 'uglifier' 
-gem 'padrino-sprockets', :git => 'git://github.com/bookworm/padrino-sprockets.git'         
+gem 'padrino-sprockets', :git => 'git://github.com/bookworm/padrino-sprockets.git'     
+gem 'padrino-assethelpers', :git => 'git://github.com/bookworm/padrino-assethelpers.git'             
 gem 'padrino-responders', :git => 'git://github.com/bookworm/padrino-responders.git'            
 gem 'yajl-ruby', :require => 'yajl'
 
@@ -26,5 +27,5 @@ gem 'rspec', :group => "test"
 gem 'rack-test', :require => "rack/test", :group => "test"
 
 # Padrino fork with better asset handling
-gem 'padrino', :git => 'git://github.com/bookworm/padrino-framework.git'
+gem 'padrino'
 
