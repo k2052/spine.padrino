@@ -7,6 +7,7 @@ class SpinePadrino < Padrino::Application
   register Padrino::Sprockets   
   register Padrino::Responders    
   
+  
   ## 
   # Assets
   #
@@ -14,11 +15,9 @@ class SpinePadrino < Padrino::Application
   assets do    
     digest false  
     handle_stylesheets false  
-    stylesheets_url 'css'
-    javascripts_url 'js'  
-    public_assets_folder '/'
-    public_stylesheets_folder 'css'  
-    public_javascripts_folder 'js'
+    assets_folder '/public'
+    stylesheets_folder 'css'  
+    javascripts_folder 'js'
     append_path 'assets/js'     
     append_path '../vendor/assets/js' 
   end
