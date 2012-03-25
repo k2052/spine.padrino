@@ -3,11 +3,16 @@ class SpinePadrino < Padrino::Application
   register Padrino::Rendering
   register Padrino::Mailer
   register Padrino::Helpers
-  register CompassInitializer  
+  register CompassInitializer 
+  set :stylesheets_folder, :css
+  set :javascripts_folder, :js
+    
+  register Padrino::AssetHelpers
   register Padrino::Sprockets   
   register Padrino::Responders    
-  
-  
+  register Sprockets::Jquery::Tmpl::App   
+  puts Sprockets::Jquery::Tmpl::App.inspect
+
   ## 
   # Assets
   #
@@ -16,8 +21,6 @@ class SpinePadrino < Padrino::Application
     digest false  
     handle_stylesheets false  
     assets_folder '/public'
-    stylesheets_folder 'css'  
-    javascripts_folder 'js'
     append_path 'assets/js'     
     append_path '../vendor/assets/js' 
   end
