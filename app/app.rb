@@ -11,7 +11,6 @@ class SpinePadrino < Padrino::Application
   register Padrino::Sprockets   
   register Padrino::Responders    
   register Sprockets::Jquery::Tmpl::App   
-  puts Sprockets::Jquery::Tmpl::App.inspect
 
   ## 
   # Assets
