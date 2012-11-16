@@ -2,7 +2,6 @@ source :rubygems
 
 # Server requirements (defaults to WEBrick)
 gem 'thin'
-# gem 'mongrel'
 
 # Project requirements
 gem 'rake'

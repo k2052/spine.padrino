@@ -1,0 +1,172 @@
+GIT
+  remote: git://github.com/bookworm/padrino-assethelpers.git
+  revision: 65c4f4bc3d6e6c57bef57dc47d24987611d3478d
+  specs:
+    padrino-assethelpers (0.1.0)
+      padrino-core
+      padrino-helpers
+
+GIT
+  remote: git://github.com/bookworm/padrino-responders.git
+  revision: 17ed0f8e9522d0a8d9cabdada9d5950b09d4d6e8
+  specs:
+    padrino-responders (0.1.5)
+      padrino (>= 0.10.2)
+      sinatra-flash (>= 0.3.0)
+
+GIT
+  remote: git://github.com/bookworm/padrino-sprockets.git
+  revision: 07815c2df02c0afcce3a9448d8871cc5821865ea
+  specs:
+    padrino-sprockets (0.0.1)
+      sprockets
+
+GIT
+  remote: git://github.com/bookworm/sprockets-jquery-tmpl.git
+  revision: 5cbf7a65d0ce571469d1931992849de05daf11e6
+  specs:
+    sprockets-jquery-tmpl (0.1.1)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activemodel (3.2.9)
+      activesupport (= 3.2.9)
+      builder (~> 3.0.0)
+    activesupport (3.2.9)
+      i18n (~> 0.6)
+      multi_json (~> 1.0)
+    bson (1.7.1)
+    bson_ext (1.7.1)
+      bson (~> 1.7.1)
+    builder (3.0.4)
+    chunky_png (1.2.6)
+    coffee-script (2.2.0)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.4.0)
+    compass (0.12.2)
+      chunky_png (~> 1.2)
+      fssm (>= 0.2.7)
+      sass (~> 3.1)
+    daemons (1.1.9)
+    diff-lcs (1.1.3)
+    eventmachine (1.0.0)
+    execjs (1.4.0)
+      multi_json (~> 1.0)
+    fssm (0.2.9)
+    hike (1.2.1)
+    http_router (0.10.2)
+      rack (>= 1.0.0)
+      url_mount (~> 0.2.1)
+    i18n (0.6.1)
+    mail (2.3.3)
+      i18n (>= 0.4.0)
+      mime-types (~> 1.16)
+      treetop (~> 1.4.8)
+    mime-types (1.19)
+    mongo (1.7.1)
+      bson (~> 1.7.1)
+    mongo_mapper (0.12.0)
+      activemodel (~> 3.0)
+      activesupport (~> 3.0)
+      plucky (~> 0.5.2)
+    multi_json (1.3.7)
+    padrino (0.10.7)
+      padrino-admin (= 0.10.7)
+      padrino-cache (= 0.10.7)
+      padrino-core (= 0.10.7)
+      padrino-gen (= 0.10.7)
+      padrino-helpers (= 0.10.7)
+      padrino-mailer (= 0.10.7)
+    padrino-admin (0.10.7)
+      padrino-core (= 0.10.7)
+      padrino-helpers (= 0.10.7)
+    padrino-cache (0.10.7)
+      padrino-core (= 0.10.7)
+    padrino-core (0.10.7)
+      activesupport (~> 3.2.0)
+      http_router (~> 0.10.2)
+      sinatra (~> 1.3.1)
+      thor (~> 0.15.2)
+      tilt (~> 1.3.0)
+    padrino-gen (0.10.7)
+      bundler (~> 1.0)
+      padrino-core (= 0.10.7)
+    padrino-helpers (0.10.7)
+      i18n (~> 0.6)
+      padrino-core (= 0.10.7)
+    padrino-mailer (0.10.7)
+      mail (~> 2.3.0)
+      padrino-core (= 0.10.7)
+    plucky (0.5.2)
+      mongo (~> 1.5)
+    polyglot (0.3.3)
+    rack (1.4.1)
+    rack-protection (1.2.0)
+      rack
+    rack-test (0.6.2)
+      rack (>= 1.0)
+    rake (10.0.1)
+    rspec (2.12.0)
+      rspec-core (~> 2.12.0)
+      rspec-expectations (~> 2.12.0)
+      rspec-mocks (~> 2.12.0)
+    rspec-core (2.12.0)
+    rspec-expectations (2.12.0)
+      diff-lcs (~> 1.1.3)
+    rspec-mocks (2.12.0)
+    sass (3.2.3)
+    sinatra (1.3.3)
+      rack (~> 1.3, >= 1.3.6)
+      rack-protection (~> 1.2)
+      tilt (~> 1.3, >= 1.3.3)
+    sinatra-flash (0.3.0)
+      sinatra (>= 1.0.0)
+    slim (1.3.4)
+      temple (~> 0.5.5)
+      tilt (~> 1.3.3)
+    sprockets (2.8.1)
+      hike (~> 1.2)
+      multi_json (~> 1.0)
+      rack (~> 1.0)
+      tilt (~> 1.1, != 1.3.0)
+    temple (0.5.5)
+    thin (1.5.0)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
+      rack (>= 1.0.0)
+    thor (0.15.4)
+    tilt (1.3.3)
+    treetop (1.4.12)
+      polyglot
+      polyglot (>= 0.3.1)
+    uglifier (1.3.0)
+      execjs (>= 0.3.0)
+      multi_json (~> 1.0, >= 1.0.2)
+    url_mount (0.2.1)
+      rack
+    yajl-ruby (1.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bson_ext
+  coffee-script
+  compass
+  mongo_mapper
+  padrino
+  padrino-assethelpers!
+  padrino-responders!
+  padrino-sprockets!
+  rack-test
+  rake
+  rspec
+  sinatra-flash
+  slim
+  sprockets
+  sprockets-jquery-tmpl!
+  thin
+  uglifier
+  yajl-ruby
