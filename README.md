@@ -30,3 +30,8 @@ gem 'padrino', :git => 'git://github.com/bookworm/padrino-framework.git'
 ```
 
 Thats about it, have fun!
+
+## Support
+
+If you found this repo useful please consider supporting me on [Gittip](https://www.gittip.com/k2052) or sending me some
+bitcoin `1csGsaDCFLRPPqugYjX93PEzaStuqXVMu`
